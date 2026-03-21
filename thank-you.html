@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <title>K2</title>
+
+    <!-- FAVICONS -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon.png" />
+
+  <script type="module" crossorigin src="./assets/js/vendor.min.js"></script>
+  <script type="module" crossorigin src="./assets/js/main.min2.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/css/style.min.css">
+</head>
+<body>
+    <div class="wrapper" id="main">
+        <header class="header" data-anim="fade-up" data-anim-delay="0.3">
+            <div class="header__container">
+                <a class="header__logo" href="#"><img src="./assets/images/logo.png" alt="K2" /></a>
+        
+                <div class="header__menu menu">
+                    <nav class="menu__nav">
+                        <ul>
+                            <li>
+                                <a href="#services">Our services</a>
+                            </li>
+                            <li class="sub-in">
+                                <a href="#about-us">About us</a>
+                                <div class="menu__arrow">
+                                    <svg class="icon">
+                                        <use href="./assets/images/sprite.svg#icon-arrow"></use>
+                                    </svg>
+                                </div>
+        
+                                <div class="sub-list">
+                                    <ul>
+                                        <li>
+                                            <a href="#">About Eduard</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">About Mykhailo</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#projects">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#reviews">Reviews</a>
+                            </li>
+                            <li>
+                                <a href="#service-areas">Service areas</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="menu__btn btn" type="button" data-popup-target="#form-contact">
+                        Get a free quote
+                    </button>
+                </div>
+        
+                <div class="header__actions">
+                    <a href="tel:6043170004" class="header__link-phone" aria-label="main phone">
+                        <svg class="icon">
+                            <use href="./assets/images/sprite.svg#icon-phone"></use>
+                        </svg>
+                    </a>
+                    <button class="header__btn btn" type="button" data-popup-target="#form-contact">
+                        Get a free quote
+                    </button>
+                </div>
+        
+        
+                <button class="header__burger js-menu-trigger" type="button" aria-label="open menu">
+                    <span></span>
+                </button>
+            </div>
+        </header>
+        <main class="page page--thank-you">
+
+            <section class="section thank-you">
+                <div class="thank-you__bg">
+                    <img src="./assets/images/bg-thank.png" alt="bg img thank-you">
+                </div>
+                <div class="thank-you__container">
+                    <h1 class="thank-you__title" data-anim="fade-up"> Thank you for filling out the form!</h1>
+                    <div class="thank-you__text" data-anim="fade-up" data-anim-delay="0.3">
+                        <p>Our manager will contact you within 24 hours</p>
+                    </div>
+                    <a href="#" class="thank-you__btn btn" data-anim="fade-up" data-anim-delay="0.5">Go to main page</a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__row">
+                    <div class="footer__col">
+                        <a href="#" class="footer__logo"><img src="./assets/images/logo.png" alt="K2" /></a>
+                        <div class="footer__social social">
+                            <ul class="social__list">
+                                <li class="social__item">
+                                    <a href="#" class="social__link" aria-label="Instagram" target="_blank" rel="noopener">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M16.5429 0C18.2304 0.0045 19.0869 0.0135 19.8264 0.0345L20.1174 0.045C20.4534 0.057 20.7849 0.0719999 21.1854 0.0899999C22.7814 0.165 23.8704 0.417 24.8259 0.7875C25.8159 1.1685 26.6499 1.6845 27.4839 2.517C28.2469 3.2666 28.8371 4.17371 29.2134 5.175C29.5839 6.1305 29.8359 7.2195 29.9109 8.817C29.9289 9.216 29.9439 9.5475 29.9559 9.885L29.9649 10.176C29.9874 10.914 29.9964 11.7705 29.9994 13.458L30.0009 14.577V16.542C30.0045 17.6361 29.993 18.7302 29.9664 19.824L29.9574 20.115C29.9454 20.4525 29.9304 20.784 29.9124 21.183C29.8374 22.7805 29.5824 23.868 29.2134 24.825C28.8371 25.8263 28.2469 26.7334 27.4839 27.483C26.7343 28.246 25.8271 28.8363 24.8259 29.2125C23.8704 29.583 22.7814 29.835 21.1854 29.91L20.1174 29.955L19.8264 29.964C19.0869 29.985 18.2304 29.9955 16.5429 29.9985L15.4239 30H13.4604C12.3657 30.0039 11.2711 29.9924 10.1769 29.9655L9.88585 29.9565C9.52977 29.943 9.17376 29.9275 8.81785 29.91C7.22185 29.835 6.13285 29.583 5.17585 29.2125C4.1751 28.8361 3.26852 28.2459 2.51935 27.483C1.75577 26.7336 1.16502 25.8264 0.788353 24.825C0.417853 23.8695 0.165853 22.7805 0.0908531 21.183L0.0458532 20.115L0.0383533 19.824C0.0107024 18.7302 -0.00179894 17.6361 0.000853195 16.542V13.458C-0.00329865 12.3639 0.00770252 11.2698 0.0338533 10.176L0.0443533 9.885C0.0563533 9.5475 0.0713532 9.216 0.0893532 8.817C0.164353 7.2195 0.416353 6.132 0.786853 5.175C1.16439 4.1733 1.75619 3.26615 2.52085 2.517C3.26958 1.75432 4.17563 1.16411 5.17585 0.7875C6.13285 0.417 7.22035 0.165 8.81785 0.0899999C9.21685 0.0719999 9.54985 0.057 9.88585 0.045L10.1769 0.0359999C11.2706 0.00934906 12.3647 -0.00215205 13.4589 0.00149989L16.5429 0ZM15.0009 7.5C13.0117 7.5 11.1041 8.29018 9.69755 9.6967C8.29103 11.1032 7.50085 13.0109 7.50085 15C7.50085 16.9891 8.29103 18.8968 9.69755 20.3033C11.1041 21.7098 13.0117 22.5 15.0009 22.5C16.99 22.5 18.8976 21.7098 20.3042 20.3033C21.7107 18.8968 22.5009 16.9891 22.5009 15C22.5009 13.0109 21.7107 11.1032 20.3042 9.6967C18.8976 8.29018 16.99 7.5 15.0009 7.5ZM15.0009 10.5C15.5918 10.4999 16.177 10.6162 16.723 10.8423C17.269 11.0683 17.7651 11.3997 18.1831 11.8175C18.601 12.2353 18.9325 12.7313 19.1588 13.2772C19.385 13.8232 19.5015 14.4083 19.5016 14.9993C19.5017 15.5902 19.3854 16.1754 19.1593 16.7214C18.9333 17.2674 18.6019 17.7635 18.1841 18.1814C17.7663 18.5994 17.2703 18.9309 16.7244 19.1572C16.1784 19.3834 15.5933 19.4999 15.0024 19.5C13.8089 19.5 12.6643 19.0259 11.8204 18.182C10.9765 17.3381 10.5024 16.1935 10.5024 15C10.5024 13.8065 10.9765 12.6619 11.8204 11.818C12.6643 10.9741 13.8089 10.5 15.0024 10.5M22.8774 5.25C22.3801 5.25 21.9032 5.44754 21.5515 5.79917C21.1999 6.15081 21.0024 6.62772 21.0024 7.125C21.0024 7.62228 21.1999 8.09919 21.5515 8.45082C21.9032 8.80246 22.3801 9 22.8774 9C23.3746 9 23.8515 8.80246 24.2032 8.45082C24.5548 8.09919 24.7524 7.62228 24.7524 7.125C24.7524 6.62772 24.5548 6.15081 24.2032 5.79917C23.8515 5.44754 23.3746 5.25 22.8774 5.25Z"
+                                                fill="#FEFEFE" />
+                                        </svg>
+                                    </a>
+        
+        
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link" aria-label="Facebook" target="_blank" rel="noopener">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M30 15C30 6.72 23.28 0 15 0C6.72 0 0 6.72 0 15C0 22.26 5.16 28.305 12 29.7V19.5H9V15H12V11.25C12 8.355 14.355 6 17.25 6H21V10.5H18C17.175 10.5 16.5 11.175 16.5 12V15H21V19.5H16.5V29.925C24.075 29.175 30 22.785 30 15Z"
+                                                fill="#FEFEFE" />
+                                        </svg>
+        
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link" aria-label="YouTube" target="_blank" rel="noopener">
+                                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.987" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M16.2206 2.38766C17.8518 2.20541 18.8171 2.20541 20.5698 2.38766C23.6724 2.84688 26.5485 4.28101 28.7823 6.48266C27.2728 7.90947 25.7832 9.35711 24.3138 10.8252C21.4998 8.44016 18.3588 7.88966 14.8908 9.17366C12.3468 10.3437 10.5753 12.2397 9.5763 14.8617C7.94379 13.6463 6.33255 12.4026 4.7433 11.1312C4.63285 11.073 4.50671 11.0517 4.3833 11.0704C6.9078 6.20291 10.8528 3.30791 16.2183 2.38541"
+                                                fill="#F44336" />
+                                            <path opacity="0.997" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4.37858 11.0707C4.50608 11.0512 4.62683 11.0714 4.74083 11.1314C6.33008 12.4028 7.94132 13.6465 9.57383 14.8619C9.31694 15.8835 9.155 16.9267 9.09008 17.9782C9.14558 18.9952 9.30683 19.9934 9.57383 20.9729L4.50008 25.0117C2.29058 20.3947 2.25008 15.7477 4.37858 11.0707Z"
+                                                fill="#FFC107" />
+                                            <path opacity="0.999" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M28.5412 29.9031C26.9614 28.5099 25.3074 27.203 23.5867 25.9881C25.3117 24.7701 26.3587 23.0991 26.7277 20.9751H18.2744V15.1049C23.1494 15.0644 28.0222 15.1056 32.8927 15.2286C33.8167 20.2461 32.7494 24.7701 29.6909 28.8006C29.3272 29.1872 28.942 29.5552 28.5412 29.9031Z"
+                                                fill="#448AFF" />
+                                            <path opacity="0.993" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M9.57375 20.9746C11.4188 25.5601 14.8013 27.7006 19.7213 27.3961C21.1024 27.2362 22.4265 26.7537 23.5868 25.9876C25.3088 27.2056 26.9603 28.5106 28.5413 29.9026C26.0362 32.1536 22.8423 33.4893 19.4805 33.6916C18.7167 33.7527 17.9493 33.7527 17.1855 33.6916C11.4585 33.0166 7.23 30.1231 4.5 25.0111L9.57375 20.9746Z"
+                                                fill="#43A047" />
+                                        </svg>
+        
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <nav class="footer__nav">
+                            <h2 class="footer__title">PAGES</h2>
+                            <ul class="footer__list">
+                                <li>
+                                    <a href="#services">Our services</a>
+                                </li>
+                                <li>
+                                    <a href="#about-us">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#projects">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="#reviews">Reviews</a>
+                                </li>
+                                <li>
+                                    <a href="#service-areas">Service areas</a>
+                                </li>
+                                <li>
+                                    <a href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+        
+                        <div class="footer__contacts contacts">
+                            <ul class="contacts__list">
+                                <li class="contacts__item">
+                                    <h3 class="contacts__title">Adress</h3>
+        
+                                    <span class="contacts__text">
+                                        <a href="mailto:info@k2roofing.com">911 12th Street
+                                            New Westminster, BC V3M 4K3, Canada</a>
+                                    </span>
+                                </li>
+                                <li class="contacts__item">
+                                    <h3 class="contacts__title">phone</h3>
+        
+                                    <span class="contacts__text">
+                                        <a href="mailto:6043170004">Tel: (604) 317-0004</a>
+                                        <a href="mailto:6045236778">Fax: (604) 523-6778</a>
+                                    </span>
+                                </li>
+                                <li class="contacts__item">
+                                    <h3 class="contacts__title">Email adress</h3>
+        
+                                    <span class="contacts__text">
+                                        <a class="email" href="mailto:info@k2roofing.com">info@k2roofing.com</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+        
+                    </div>
+                </div>
+        </footer>    </div>
+    <div id="form-contact" class="popup" aria-hidden="true">
+        <div class="popup__wrapper">
+    
+            <div class="popup__content">
+                <button class="popup__close close-popup" data-close-popup aria-label="Close" type="button"></button>
+    
+                <div class="popup__body">
+                    <h2 class="popup__title">
+                        Contact us
+                    </h2>
+    
+                    <form action="">
+    
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label class="form-label" for="contact-name">Name</label>
+                                <input class="form-input" type="text" name="" id="contact-name" required
+                                    placeholder="Artem Shulga*">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="contact-email">Email adress</label>
+                                <input class="form-input" type="email" name="" id="contact-email" required
+                                    placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="contact-phone">Phone number</label>
+                                <input class="form-input" type="text" name="" id="contact-phone" required
+                                    placeholder="(604) 317-0004*">
+                            </div>
+    
+                            <div class="form-group">
+                                <label class="form-label" for="contact-service">Service selection</label>
+    
+                                <select class="js-select" name="" id="contact-service">
+                                    <option value="all" disabled selected>Select service</option>
+                                    <option value="1">Оклеювання антигравійною та кольоровою плівкою</option>
+                                    <option value="2">Полірування, захисні покриття</option>
+                                    <option value="3">Тонування</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <div class="form-group">
+                            <label class="form-label" for="contact-name">Description</label>
+                            <textarea class="form-input" name="" id="contact-text"></textarea>
+                        </div>
+    
+                        <button class="form-btn btn" type="submit">Get a free quote</button>
+                    </form>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <div id="form-success" class="popup" aria-hidden="true">
+        <div class="popup__wrapper">
+    
+            <div class="popup__content">
+                <button class="popup__close close-popup" data-close-popup aria-label="Close" type="button"></button>
+    
+                <div class="popup__body">
+                    <h2 class="popup__title">
+                        Дякуємо!
+                    </h2>
+                    <div class="popup__text">
+                        <p>Ми звʼяжемось з вами протягом 24 годин</p>
+                    </div>
+                    <button class="btn" type="button" data-close-popup>Ок
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div></body>
+
+</html>

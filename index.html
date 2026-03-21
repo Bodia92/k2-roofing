@@ -1,0 +1,1016 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <title>K2</title>
+
+    <!-- FAVICONS -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon.png" />
+
+  <script type="module" crossorigin src="./assets/js/vendor.min.js"></script>
+  <script type="module" crossorigin src="./assets/js/main.min2.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/css/style.min.css">
+</head>
+<body>
+    <div class="wrapper" id="main">
+        <header class="header" data-anim="fade-up" data-anim-delay="0.3">
+            <div class="header__container">
+                <a class="header__logo" href="#"><img src="./assets/images/logo.png" alt="K2" /></a>
+        
+                <div class="header__menu menu">
+                    <nav class="menu__nav">
+                        <ul>
+                            <li>
+                                <a href="#services">Our services</a>
+                            </li>
+                            <li class="sub-in">
+                                <a href="#about-us">About us</a>
+                                <div class="menu__arrow">
+                                    <svg class="icon">
+                                        <use href="./assets/images/sprite.svg#icon-arrow"></use>
+                                    </svg>
+                                </div>
+        
+                                <div class="sub-list">
+                                    <ul>
+                                        <li>
+                                            <a href="#">About Eduard</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">About Mykhailo</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#projects">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#reviews">Reviews</a>
+                            </li>
+                            <li>
+                                <a href="#service-areas">Service areas</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="menu__btn btn" type="button" data-popup-target="#form-contact">
+                        Get a free quote
+                    </button>
+                </div>
+        
+                <div class="header__actions">
+                    <a href="tel:6043170004" class="header__link-phone" aria-label="main phone">
+                        <svg class="icon">
+                            <use href="./assets/images/sprite.svg#icon-phone"></use>
+                        </svg>
+                    </a>
+                    <button class="header__btn btn" type="button" data-popup-target="#form-contact">
+                        Get a free quote
+                    </button>
+                </div>
+        
+        
+                <button class="header__burger js-menu-trigger" type="button" aria-label="open menu">
+                    <span></span>
+                </button>
+            </div>
+        </header>
+        <main class="page page--main">
+            <!-- 1. HERO -->
+            <section class="hero" id="hero">
+                <div class="hero__img" data-anim="fade-up">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="./assets/images/hero.jpg">
+                        <img class="hero-image" src="./assets/images/hero.jpg" alt="hero">
+                    </picture>
+                </div>
+
+                <div class="hero__container">
+
+                    <h1 class="hero__title" data-anim="fade-up" data-anim-delay="0.2">
+                        Mountain Peak
+                    </h1>
+                    <ul class="hero__list" data-anim-stagger="true">
+                        <li class="hero__item">
+                            <img src="./assets/images/icons/01.svg" alt="icon">
+                            <span>Financing available</span>
+                        </li>
+                        <li class="hero__item">
+                            <img src="./assets/images/icons/02.svg" alt="icon">
+                            <span>Licensed</span>
+                        </li>
+                        <li class="hero__item">
+                            <img src="./assets/images/icons/03.svg" alt="icon">
+                            <span>Insured</span>
+                        </li>
+                        <li class="hero__item">
+                            <img src="./assets/images/icons/04.svg" alt="icon">
+                            <span>Warranty</span>
+                        </li>
+                    </ul>
+                    <button class="hero__btn btn" data-anim="fade-up" data-anim-delay="0.3" type="button"
+                        data-popup-target="#form-contact">
+                        Get a free quote
+                    </button>
+                </div>
+
+            </section>
+
+            <!-- 2. utp-->
+            <div class="utp">
+                <div class="utp__container">
+                    <ul class="utp__list" data-anim-stagger="true">
+                        <li class="utp__item">
+                            <div class="utp__num"><span>100</span>+</div>
+                            <div class="utp__text">Lorem ipsum</div>
+                        </li>
+                        <li class="utp__item">
+                            <div class="utp__num"><span>10</span>+</div>
+                            <div class="utp__text">Lorem ipsum</div>
+                        </li>
+                        <li class="utp__item">
+                            <div class="utp__num"><span>30</span>+</div>
+                            <div class="utp__text">Lorem ipsum</div>
+                        </li>
+                        <li class="utp__item">
+                            <div class="utp__num"><span>200</span>+</div>
+                            <div class="utp__text">Lorem ipsum</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 3. Our services -->
+            <section class="section services" id="services">
+                <div class="services__container">
+                    <h2 class="services__title title" data-anim="fade-up">Our services</h2>
+                    <ul class="services__list">
+                        <li class="services__item item-service">
+                            <div class="item-service__img" data-anim="fade-left">
+                                <img src="./assets/images/service01.jpg" alt="service">
+                            </div>
+                            <div class="item-service__content" data-anim="fade-right">
+                                <div class="item-service__info">
+                                    <div class="key">Best for:</div>
+                                    <div class="value">
+                                        New homeowners | Property developers | Full roof replacement projects
+                                    </div>
+                                </div>
+                                <h3 class="item-service__title">Roof Installation</h3>
+                                <div class="item-service__text">Professional roof installation using durable materials
+                                    and industry-approved techniques
+                                    for long-term protection</div>
+                                <div class="item-service__editor text-formatted">
+                                    <h4> What’s included:</h4>
+                                    <ul>
+                                        <li>Removal of old roofing (if needed)</li>
+                                        <li>New roof system installation</li>
+                                        <li>Underlayment & ventilation setup</li>
+                                        <li>Flashing & sealing</li>
+                                        <li>Final inspection</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__item item-service">
+                            <div class="item-service__img" data-anim="fade-right">
+                                <img src="./assets/images/service02.jpg" alt="service">
+                            </div>
+                            <div class="item-service__content" data-anim="fade-left">
+                                <div class="item-service__info">
+                                    <div class="key">Best for:</div>
+                                    <div class="value">
+                                        Homeowners with minor roof damage | Preventative maintenance | Post-storm
+                                        repairs
+                                    </div>
+                                </div>
+
+                                <h3 class="item-service__title">Roof Repairs</h3>
+                                <div class="item-service__text">Fast and reliable roof repair to fix leaks, damage, and
+                                    wear before they become costly problems</div>
+                                <div class="item-service__editor text-formatted">
+                                    <h4>What’s included:</h4>
+                                    <ul>
+                                        <li>Leak detection</li>
+                                        <li>Shingle replacement</li>
+                                        <li>Flashing repair</li>
+                                        <li>Minor structural fixes</li>
+                                        <li>Damage assessment</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__item item-service">
+                            <div class="item-service__img" data-anim="fade-left">
+                                <img src="./assets/images/service03.jpg" alt="service">
+                            </div>
+                            <div class="item-service__content" data-anim="fade-right">
+                                <div class="item-service__info">
+                                    <div class="key">Best for:</div>
+                                    <div class="value">
+                                        Storm or wind damage | Sudden leaks | Insurance-related claims
+                                    </div>
+                                </div>
+
+                                <h3 class="item-service__title">Emergency Repairs</h3>
+                                <div class="item-service__text">Immediate response roofing service to secure
+                                    and protect your property after sudden damage</div>
+                                <div class="item-service__editor text-formatted">
+                                    <h4>What’s included:</h4>
+                                    <ul>
+                                        <li>Emergency leak control</li>
+                                        <li>Temporary tarping</li>
+                                        <li>Storm damage stabilization</li>
+                                        <li>Urgent structural reinforcement</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__item item-service">
+                            <div class="item-service__img" data-anim="fade-right">
+                                <img src="./assets/images/service04.jpg" alt="service">
+                            </div>
+                            <div class="item-service__content" data-anim="fade-left">
+                                <div class="item-service__info">
+                                    <div class="key">Best for:</div>
+                                    <div class="value">
+                                        Homes with drainage issues | Seasonal maintenance | Preventing water damage
+                                    </div>
+                                </div>
+
+                                <h3 class="item-service__title">Gutter Service</h3>
+                                <div class="item-service__text">Professional gutter cleaning, repair, and installation
+                                    to ensure proper water drainage and protect your home</div>
+                                <div class="item-service__editor text-formatted">
+                                    <h4>What’s included:</h4>
+                                    <ul>
+                                        <li>Gutter cleaning</li>
+                                        <li>Downspout inspection</li>
+                                        <li>Gutter repair or replacement</li>
+                                        <li>Debris removal</li>
+                                        <li>Drainage check</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 4. Q&A -->
+            <section class="section quality" id="quality">
+                <div class="quality__container">
+                    <h2 class="quality__title title" data-anim="fade-up">Q&A</h2>
+                    <ul class="quality__list" data-anim-stagger="true">
+                        <li class="quality__item">
+                            <h3 class="quality__item-title"> Got a Roof<br>
+                                Leak?</h3>
+                            <div class="quality__item-text">
+                                <p>Our specialists inspect the roof, identify the source of the leak, and repair damaged
+                                    areas using
+                                    professional waterproofing solutions</p>
+                            </div>
+                        </li>
+                        <li class="quality__item">
+                            <h3 class="quality__item-title"> Storm Damaged<br> Your Roof?</h3>
+                            <div class="quality__item-text">
+                                <p> We quickly replace broken shingles or panels and restore the roof using durable,
+                                    weather-resistant materials</p>
+                            </div>
+                        </li>
+                        <li class="quality__item">
+                            <h3 class="quality__item-title">Poor Roof<br> Insulation?</h3>
+                            <div class="quality__item-text">
+                                <p>
+                                    Our team upgrades your insulation and improves ventilation to keep your home warm
+                                    and energy-efficient</p>
+                            </div>
+                        </li>
+                        <li class="quality__item">
+                            <h3 class="quality__item-title"> Missing or Broken<br> Shingles?</h3>
+                            <div class="quality__item-text">
+                                <p>Our team replaces damaged shingles and restores the protective layer of your roof to
+                                    prevent leaks and
+                                    further damage</p>
+                            </div>
+                        </li>
+                        <li class="quality__item">
+                            <h3 class="quality__item-title">Sagging Roof<br> Structure?</h3>
+                            <div class="quality__item-text">
+                                <p> We inspect the roof framework, reinforce weak areas, and restore structural
+                                    stability to ensure long-term
+                                    safety</p>
+                            </div>
+                        </li>
+                        <li class="quality__item">
+                            <h3 class="quality__item-title">Aging Roof<br> Materials?</h3>
+                            <div class="quality__item-text">
+                                <p>
+                                    Our experts assess the condition of your roof and replace worn-out materials to
+                                    restore durability and
+                                    extend the lifespan of your roofing system</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 5. Projects -->
+            <section class="section projects" id="projects">
+                <div class="projects__container">
+                    <h2 class="projects__title title" data-anim="fade-up">Projects</h2>
+
+                    <div class="projects__slider">
+                        <div class="swiper-wrapper" data-anim="fade-up" data-anim-delay="0.3">
+                            <div class="swiper-slide">
+                                <a class="projects__item glightbox" href="./assets/images/projects/01.jpg">
+                                    <img src="./assets/images/projects/01.jpg" alt="project">
+                                    <span class="projects__lable">Austin, TX</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="projects__item glightbox" href="./assets/images/projects/02.jpg">
+                                    <img src="./assets/images/projects/02.jpg" alt="project">
+                                    <span class="projects__lable">Austin, TX</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="projects__item glightbox" href="./assets/images/projects/03.jpg">
+                                    <img src="./assets/images/projects/03.jpg" alt="project">
+                                    <span class="projects__lable">Austin, TX</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="projects__item glightbox" href="./assets/images/projects/04.jpg">
+                                    <img src="./assets/images/projects/04.jpg" alt="project">
+                                    <span class="projects__lable">Austin, TX</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-nav">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6 who is behind k2 roofing -->
+            <section class="section who-is" id="who-is">
+                <div class="who-is__container">
+                    <h2 class="who-is__title title" data-anim="fade-up">Who is behind K2 roofing</h2>
+                    <ul class="who-is__list">
+                        <li class="who-is__item">
+                            <div class="who-is__img" data-anim="fade-left">
+                                <img src="./assets/images/eduard.png" alt="Eduard">
+                            </div>
+                            <div class="who-is__content">
+                                <h3 class="who-is__name" data-anim="fade-up">Eduard</h3>
+                                <div class="who-is__text" data-anim="fade-up" data-anim-delay="0.3">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                        magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                                        ultricies</p>
+                                </div>
+
+                                <a class="who-is__link btn btn-border" href="#" data-anim="fade-up"
+                                    data-anim-delay="0.4">Read more</a>
+                            </div>
+                        </li>
+                        <li class="who-is__item">
+                            <div class="who-is__img" data-anim="fade-right">
+                                <img src="./assets/images/mykhailo.png" alt="Mykhailo">
+                            </div>
+                            <div class="who-is__content">
+                                <h3 class="who-is__name" data-anim="fade-up">Mykhailo</h3>
+                                <div class="who-is__text" data-anim="fade-up" data-anim-delay="0.3">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                        magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                                        ultricies</p>
+                                </div>
+
+                                <a class="who-is__link btn btn-border" href="#" data-anim="fade-up"
+                                    data-anim-delay="0.4">Read more</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <!-- 7 About us – the K2 manifesto -->
+            <section class="section about" id="about-us">
+                <div class="about__container">
+                    <h2 class="about__title title" data-anim="fade-up">About us – the K2 manifesto</h2>
+
+                    <div class="about__hero">
+                        <div class="about__content" data-anim="fade-left">
+                            <h3 class="about__subtitle">The Vision: roofers vs. nailers</h3>
+                            <div class="about__text">
+                                <p> The American roofing industry is currently defined by a dangerous distinction: the
+                                    difference between a "nailer" and a "roofer." Most companies treat a home like a
+                                    commodity—a
+                                    flat surface to be covered as quickly as possible. These "nailers" ignore the fact
+                                    that a
+                                    roof is a high-performance system that must breathe and insulate. In the punishing
+                                    humidity
+                                    of the Northeast, an improperly installed roof is a ticking time bomb of moisture
+                                    and rot</p>
+                                <p> K2 Roofing was founded to end this "shingle-deep" approach. This company was not
+                                    built to
+                                    fill a gap; it was built to address a systemic failure in craftsmanship. K2 Roofing
+                                    brings
+                                    engineering-grade strategy and elite athletic discipline to a trade that has lacked
+                                    both for
+                                    too long.</p>
+                            </div>
+                        </div>
+                        <div class="about__img" data-anim="fade-right">
+                            <img src="./assets/images/projects/01.jpg" alt="Roofing">
+                        </div>
+                    </div>
+
+                    <div class="about__grid">
+                        <div class="about__item" data-anim="fade-left">
+                            <h3 class="about__subtitle">The partnership: strategy meets execution</h3>
+                            <div class="about__text">
+                                <p>The K2 Roofing story is the union of two uncompromising backgrounds. When Eduard and
+                                    Mykhailo met, they realized that together, they held the two sides of a single coin:
+                                    the strategic precision required to design a perfect system and the ironclad
+                                    discipline required to execute it.</p>
+                                <p>By merging Eduard's "First-Time-Right" San Francisco protocol with Mykhailo's
+                                    relentless athletic focus, they bridged the gap between high-level strategic
+                                    oversight and local, hands-on leadership. Eduard ensures the materials and the math
+                                    are perfect, while Mykhailo acts as the hammer of execution, ensuring the crew
+                                    operates with a level of focus virtually unheard of in local contracting.</p>
+                            </div>
+                        </div>
+
+                        <div class="about__item" data-anim="fade-right">
+                            <h3 class="about__subtitle">The K2 commitment:</h3>
+                            <div class="about__text">
+                                <p>At K2 Roofing, the work begins where other companies' standards end. The founders are
+                                    not interested in being the fastest or the cheapest; they are interested in being
+                                    the last roofers a homeowner will ever need to hire. When a client chooses K2
+                                    Roofing, they are opting for an Institutional-Grade Standard applied to the
+                                    residential home.</p>
+                                <p>At K2, this isn't a slogan—it is a technical methodology. It means a refusal to use
+                                    temporary "quick-fix" materials, an obsession with the structural details that other
+                                    contractors hide under shingles, and a job-site discipline that treats every
+                                    property with absolute respect. K2 Roofing does not just install shingles; the firm
+                                    builds systems of protection designed to outlast the competition by decades.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 8  Reviews-->
+            <section class="section reviews" id="reviews">
+                <div class="reviews__container">
+                    <h2 class="reviews__title title" data-anim="fade-up">Reviews</h2>
+                    <div data-fls-slider class="reviews__slider">
+                        <div class="reviews__wrapper swiper-wrapper" data-anim="fade-up">
+                            <div class="reviews__slide swiper-slide">
+                                <div class="review-item">
+                                    <div class="review-item__top">
+                                        <div class="review-item__name">Olya Rud</div>
+                                        <div class="review-item__date">24/01/2026</div>
+                                    </div>
+                                    <div class="review-item__rating">
+                                        <div class="stars">
+                                            <div class="star --icon-star"></div>
+                                            <div class="star --icon-star"></div>
+                                            <div class="star --icon-star"></div>
+                                            <div class="star --icon-star"></div>
+                                            <div class="star disabled --icon-star"></div>
+                                        </div>
+                                    </div>
+                                    <div data-showmore="76" class="review-item__showmore">
+                                        <div data-showmore-content class="review-item__content">
+                                            I wish to let you know how much I appreciate the excellent job K-2 Roofing
+                                            did in replacing the roofing system on our home. My wife and I found your
+                                            staff to be highly skilled, dependable and trustworthy. Furthermore, each
+                                            member of the K-2 Roofing crew was courteous, with high standards in every
+                                            aspect of their dealings with us as homeowners. It was a refreshing
+                                            experience to deal with a company that did exactly what it committed to do.
+                                        </div>
+                                        <button hidden data-showmore-button type="button" class="review-item__more">
+                                            <span>Show more</span>
+                                            <span>Hide all</span>
+                                            <svg class="icon">
+                                                <use href="./assets/images/sprite.svg#icon-arrow"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews__slide swiper-slide">
+                                <div class="review-item">
+                                    <div class="review-item__top">
+                                        <div class="review-item__name">Olya Rud</div>
+                                        <div class="review-item__date">24/01/2026</div>
+                                    </div>
+                                    <div class="review-item__rating">
+                                        <div class="stars">
+                                            <div class="star --icon-star"></div>
+                                            <div class="star --icon-star"></div>
+                                            <div class="star --icon-star"></div>
+                                            <div class="star --icon-star"></div>
+                                            <div class="star disabled --icon-star"></div>
+                                        </div>
+                                    </div>
+                                    <div data-showmore="76" class="review-item__showmore">
+                                        <div data-showmore-content class="review-item__content">
+                                            <p>I wish to let you know how much I appreciate the excellent job K-2
+                                                Roofing did in replacing the roofing system on our home. My wife and I
+                                                found your staff to be highly skilled, dependable and trustworthy.
+                                                Furthermore, each member of the K-2 Roofing crew was courteous, with
+                                                high standards in every aspect of their dealings with us as homeowners.
+                                                It was a refreshing experience to deal with a company that did exactly
+                                                what it committed to do.
+                                            </p>
+                                            <p> The project, from start to finish, was completed stress free. We would
+                                                not hesitate to use K-2 Roofing again, nor would we hesitate to
+                                                recommend K-2 Roofing to anyone considering a roofing project.
+                                                 </p>
+                                            <p> Thanks for a "job well-done"!</p>
+                                        </div>
+                                        <button hidden data-showmore-button type="button" class="review-item__more">
+                                            <span>Show more</span>
+                                            <span>Hide all</span>
+                                            <svg class="icon">
+                                                <use href="./assets/images/sprite.svg#icon-arrow"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews__slide swiper-slide">
+                                <div class="review-item">
+                                    <div class="review-item__top">
+                                        <div class="review-item__name">Olya Rud</div>
+                                        <div class="review-item__date">24/01/2026</div>
+                                    </div>
+                                    <div class="review-item__rating">
+                                        <div class="stars">
+                                            <div class="star --icon-star"></div>
+                                            <div class="star --icon-star"></div>
+                                            <div class="star --icon-star"></div>
+                                            <div class="star --icon-star"></div>
+                                            <div class="star disabled --icon-star"></div>
+                                        </div>
+                                    </div>
+                                    <div data-showmore="76" class="review-item__showmore">
+                                        <div data-showmore-content class="review-item__content">
+                                            I wish to let you know how much I appreciate the excellent job K-2 Roofing
+                                            did in replacing the roofing system on our home. My wife and I found your
+                                            staff to be highly skilled, dependable and trustworthy. Furthermore, each
+                                            member of the K-2 Roofing crew was courteous, with high standards in every
+                                            aspect of their dealings with us as homeowners. It was a refreshing
+                                            experience to deal with a company that did exactly what it committed to do.
+                                        </div>
+                                        <button hidden data-showmore-button type="button" class="review-item__more">
+                                            <span>Show more</span>
+                                            <span>Hide all</span>
+                                            <svg class="icon">
+                                                <use href="./assets/images/sprite.svg#icon-arrow"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews__slide swiper-slide">
+                                <div class="review-item">
+                                    <div class="review-item__top">
+                                        <div class="review-item__name">Olya Rud</div>
+                                        <div class="review-item__date">24/01/2026</div>
+                                    </div>
+                                    <div class="review-item__rating">
+                                        <div class="stars">
+                                            <div class="star --icon-star"></div>
+                                            <div class="star --icon-star"></div>
+                                            <div class="star --icon-star"></div>
+                                            <div class="star --icon-star"></div>
+                                            <div class="star disabled --icon-star"></div>
+                                        </div>
+                                    </div>
+                                    <div data-showmore="76" class="review-item__showmore">
+                                        <div data-showmore-content class="review-item__content">
+                                            I wish to let you know how much I appreciate the excellent job K-2 Roofing
+                                            did in replacing the roofing system on our home. My wife and I found your
+                                            staff to be highly skilled, dependable and trustworthy. Furthermore, each
+                                            member of the K-2 Roofing crew was courteous, with high standards in every
+                                            aspect of their dealings with us as homeowners. It was a refreshing
+                                            experience to deal with a company that did exactly what it committed to do.
+                                        </div>
+                                        <button hidden data-showmore-button type="button" class="review-item__more">
+                                            <span>Show more</span>
+                                            <span>Hide all</span>
+                                            <svg class="icon">
+                                                <use href="./assets/images/sprite.svg#icon-arrow"></use>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-nav">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 9 Our clients -->
+            <section class="section clients" id="clients">
+                <div class="clients__container">
+                    <h2 class="clients__title title">Our clients</h2>
+
+                    <ul class="clients__list" data-marquee data-marquee-speed="60">
+                        <li class="clients__item">
+                            <img src="./assets/images/clients/01.jpg" alt="client">
+                        </li>
+                        <li class="clients__item">
+                            <img src="./assets/images/clients/02.jpg" alt="client">
+                        </li>
+                        <li class="clients__item">
+                            <img src="./assets/images/clients/03.jpg" alt="client">
+                        </li>
+                        <li class="clients__item">
+                            <img src="./assets/images/clients/04.jpg" alt="client">
+                        </li>
+                    </ul>
+                    <ul class="clients__list mobile reverse" data-marquee data-marquee-speed="60">
+                        <li class="clients__item">
+                            <img src="./assets/images/clients/01.jpg" alt="client">
+                        </li>
+                        <li class="clients__item">
+                            <img src="./assets/images/clients/02.jpg" alt="client">
+                        </li>
+                        <li class="clients__item">
+                            <img src="./assets/images/clients/03.jpg" alt="client">
+                        </li>
+                        <li class="clients__item">
+                            <img src="./assets/images/clients/04.jpg" alt="client">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 10 where are we located? -->
+            <section class="section map" id="map">
+                <div class="map__container">
+                    <h2 class="map__title title" data-anim="fade-up">Where are we located?</h2>
+
+                    <div class="map__row">
+                        <div class="map__img" data-anim="fade-up" data-anim-delay="0.3">
+                            <!-- або картинка або iframe -->
+                            <!-- <img src="./assets/images/map.jpg" alt="google map"> -->
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162759.0614266914!2d30.367544188592827!3d50.40178130681754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1762726178221!5m2!1suk!2sua"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                        <ul class="map__list" data-anim-stagger="true">
+                            <li class="map__item">Vancouver</li>
+                            <li class="map__item">Port Coquitlam</li>
+                            <li class="map__item">Burnaby</li>
+                            <li class="map__item">Port Moody</li>
+                            <li class="map__item">Coquitlam</li>
+                            <li class="map__item">New Westminster</li>
+                            <li class="map__item">Maple Ridge</li>
+                            <li class="map__item">Surrey / Langley</li>
+                            <li class="map__item">North Vancouver</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- 11 form -->
+            <section class="section form" id="contact">
+                <div class="form__container">
+                    <div class="form__wrap">
+                        <div class="form__col">
+                            <h2 class="form__title title" data-anim="fade-up">Contact us</h2>
+                            <div class="form__contacts contacts">
+                                <ul class="contacts__list" data-anim-stagger="true">
+                                    <li class="contacts__item">
+                                        <h3 class="contacts__title">Adress</h3>
+
+                                        <span class="contacts__text">
+                                            <a href="mailto:info@k2roofing.com">911 12th Street<br>
+                                                New Westminster, BC V3M 4K3<br> Canada</a>
+                                        </span>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <h3 class="contacts__title">phone</h3>
+
+                                        <span class="contacts__text">
+                                            <a href="mailto:6043170004">Tel: (604) 317-0004</a>
+                                            <a href="mailto:6045236778">Fax: (604) 523-6778</a>
+                                        </span>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <h3 class="contacts__title">Email adress</h3>
+
+                                        <span class="contacts__text">
+                                            <a class="email" href="mailto:info@k2roofing.com">info@k2roofing.com</a>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="form__social social">
+                                <h3 class="social__title" data-anim="fade-up">We are on social networks</h3>
+                                <ul class="social__list" data-anim-stagger="true">
+                                    <li class="social__item">
+                                        <a href="#" class="social__link" aria-label="Instagram" target="_blank"
+                                            rel="noopener">
+                                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M19.5419 3C21.2294 3.0045 22.0859 3.0135 22.8254 3.0345L23.1164 3.045C23.4524 3.057 23.7839 3.072 24.1844 3.09C25.7804 3.165 26.8694 3.417 27.8249 3.7875C28.8149 4.1685 29.6489 4.6845 30.4829 5.517C31.2459 6.2666 31.8362 7.17371 32.2124 8.175C32.5829 9.1305 32.8349 10.2195 32.9099 11.817C32.9279 12.216 32.9429 12.5475 32.9549 12.885L32.9639 13.176C32.9864 13.914 32.9954 14.7705 32.9984 16.458L32.9999 17.577V19.542C33.0035 20.6361 32.992 21.7302 32.9654 22.824L32.9564 23.115C32.9444 23.4525 32.9294 23.784 32.9114 24.183C32.8364 25.7805 32.5814 26.868 32.2124 27.825C31.8362 28.8263 31.2459 29.7334 30.4829 30.483C29.7333 31.246 28.8262 31.8363 27.8249 32.2125C26.8694 32.583 25.7804 32.835 24.1844 32.91L23.1164 32.955L22.8254 32.964C22.0859 32.985 21.2294 32.9955 19.5419 32.9985L18.4229 33H16.4594C15.3648 33.0039 14.2702 32.9924 13.1759 32.9655L12.8849 32.9565C12.5288 32.943 12.1728 32.9275 11.8169 32.91C10.2209 32.835 9.13188 32.583 8.17488 32.2125C7.17412 31.8361 6.26754 31.2459 5.51838 30.483C4.75479 29.7336 4.16404 28.8264 3.78738 27.825C3.41688 26.8695 3.16488 25.7805 3.08988 24.183L3.04488 23.115L3.03738 22.824C3.00973 21.7302 2.99722 20.6361 2.99988 19.542V16.458C2.99572 15.3639 3.00673 14.2698 3.03288 13.176L3.04338 12.885C3.05538 12.5475 3.07038 12.216 3.08838 11.817C3.16338 10.2195 3.41538 9.132 3.78588 8.175C4.16342 7.1733 4.75521 6.26615 5.51988 5.517C6.26861 4.75432 7.17466 4.16411 8.17488 3.7875C9.13188 3.417 10.2194 3.165 11.8169 3.09C12.2159 3.072 12.5489 3.057 12.8849 3.045L13.1759 3.036C14.2697 3.00935 15.3638 2.99785 16.4579 3.0015L19.5419 3ZM17.9999 10.5C16.0108 10.5 14.1031 11.2902 12.6966 12.6967C11.2901 14.1032 10.4999 16.0109 10.4999 18C10.4999 19.9891 11.2901 21.8968 12.6966 23.3033C14.1031 24.7098 16.0108 25.5 17.9999 25.5C19.989 25.5 21.8967 24.7098 23.3032 23.3033C24.7097 21.8968 25.4999 19.9891 25.4999 18C25.4999 16.0109 24.7097 14.1032 23.3032 12.6967C21.8967 11.2902 19.989 10.5 17.9999 10.5ZM17.9999 13.5C18.5908 13.4999 19.176 13.6162 19.722 13.8423C20.268 14.0683 20.7641 14.3997 21.1821 14.8175C21.6 15.2353 21.9316 15.7313 22.1578 16.2772C22.384 16.8232 22.5005 17.4083 22.5006 17.9993C22.5007 18.5902 22.3844 19.1754 22.1584 19.7214C21.9323 20.2674 21.6009 20.7635 21.1831 21.1814C20.7653 21.5994 20.2693 21.9309 19.7234 22.1572C19.1775 22.3834 18.5923 22.4999 18.0014 22.5C16.8079 22.5 15.6633 22.0259 14.8194 21.182C13.9755 20.3381 13.5014 19.1935 13.5014 18C13.5014 16.8065 13.9755 15.6619 14.8194 14.818C15.6633 13.9741 16.8079 13.5 18.0014 13.5M25.8764 8.25C25.3791 8.25 24.9022 8.44754 24.5506 8.79917C24.1989 9.15081 24.0014 9.62772 24.0014 10.125C24.0014 10.6223 24.1989 11.0992 24.5506 11.4508C24.9022 11.8025 25.3791 12 25.8764 12C26.3737 12 26.8506 11.8025 27.2022 11.4508C27.5538 11.0992 27.7514 10.6223 27.7514 10.125C27.7514 9.62772 27.5538 9.15081 27.2022 8.79917C26.8506 8.44754 26.3737 8.25 25.8764 8.25Z"
+                                                    fill="#1E2629" />
+                                            </svg>
+
+                                        </a>
+
+
+                                    </li>
+                                    <li class="social__item">
+                                        <a href="#" class="social__link" aria-label="Facebook" target="_blank"
+                                            rel="noopener">
+                                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M33 18C33 9.72 26.28 3 18 3C9.72 3 3 9.72 3 18C3 25.26 8.16 31.305 15 32.7V22.5H12V18H15V14.25C15 11.355 17.355 9 20.25 9H24V13.5H21C20.175 13.5 19.5 14.175 19.5 15V18H24V22.5H19.5V32.925C27.075 32.175 33 25.785 33 18Z"
+                                                    fill="#1E2629" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social__item">
+                                        <a href="#" class="social__link" aria-label="YouTube" target="_blank"
+                                            rel="noopener">
+                                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.987" fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M16.2206 2.38766C17.8518 2.20541 18.8171 2.20541 20.5698 2.38766C23.6724 2.84688 26.5485 4.28101 28.7823 6.48266C27.2728 7.90947 25.7832 9.35711 24.3138 10.8252C21.4998 8.44016 18.3588 7.88966 14.8908 9.17366C12.3468 10.3437 10.5753 12.2397 9.5763 14.8617C7.94379 13.6463 6.33255 12.4026 4.7433 11.1312C4.63285 11.073 4.50671 11.0517 4.3833 11.0704C6.9078 6.20291 10.8528 3.30791 16.2183 2.38541"
+                                                    fill="#F44336" />
+                                                <path opacity="0.997" fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M4.37858 11.0707C4.50608 11.0512 4.62683 11.0714 4.74083 11.1314C6.33008 12.4028 7.94132 13.6465 9.57383 14.8619C9.31694 15.8835 9.155 16.9267 9.09008 17.9782C9.14558 18.9952 9.30683 19.9934 9.57383 20.9729L4.50008 25.0117C2.29058 20.3947 2.25008 15.7477 4.37858 11.0707Z"
+                                                    fill="#FFC107" />
+                                                <path opacity="0.999" fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M28.5412 29.9031C26.9614 28.5099 25.3074 27.203 23.5867 25.9881C25.3117 24.7701 26.3587 23.0991 26.7277 20.9751H18.2744V15.1049C23.1494 15.0644 28.0222 15.1056 32.8927 15.2286C33.8167 20.2461 32.7494 24.7701 29.6909 28.8006C29.3272 29.1872 28.942 29.5552 28.5412 29.9031Z"
+                                                    fill="#448AFF" />
+                                                <path opacity="0.993" fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M9.57375 20.9746C11.4188 25.5601 14.8013 27.7006 19.7213 27.3961C21.1024 27.2362 22.4265 26.7537 23.5868 25.9876C25.3088 27.2056 26.9603 28.5106 28.5413 29.9026C26.0362 32.1536 22.8423 33.4893 19.4805 33.6916C18.7167 33.7527 17.9493 33.7527 17.1855 33.6916C11.4585 33.0166 7.23 30.1231 4.5 25.0111L9.57375 20.9746Z"
+                                                    fill="#43A047" />
+                                            </svg>
+
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="form__col" data-anim="fade-up" data-anim-delay="0.4">
+                            <form action="">
+                                <div class="form-grid">
+                                    <div class="form-group">
+                                        <label class="form-label" for="contact-name">Name</label>
+                                        <input class="form-input" type="text" name="" id="contact-name" required
+                                            placeholder="Artem Shulga*">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="contact-email">Email adress</label>
+                                        <input class="form-input" type="email" name="" id="contact-email" required
+                                            placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="contact-phone">Phone number</label>
+                                        <input class="form-input" type="text" name="" id="contact-phone" required
+                                            placeholder="(604) 317-0004*">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="form-label" for="contact-service">Service selection</label>
+
+                                        <select class="js-select" name="" id="contact-service">
+                                            <option value="all" disabled selected>Select service</option>
+                                            <option value="1">Оклеювання антигравійною та кольоровою плівкою</option>
+                                            <option value="2">Полірування, захисні покриття</option>
+                                            <option value="3">Тонування</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="contact-name">Description</label>
+                                    <textarea class="form-input" name="" id="contact-text"></textarea>
+                                </div>
+
+                                <button class="form-btn btn" type="submit">Get a free quote</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__row">
+                    <div class="footer__col">
+                        <a href="#" class="footer__logo"><img src="./assets/images/logo.png" alt="K2" /></a>
+                        <div class="footer__social social">
+                            <ul class="social__list">
+                                <li class="social__item">
+                                    <a href="#" class="social__link" aria-label="Instagram" target="_blank" rel="noopener">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M16.5429 0C18.2304 0.0045 19.0869 0.0135 19.8264 0.0345L20.1174 0.045C20.4534 0.057 20.7849 0.0719999 21.1854 0.0899999C22.7814 0.165 23.8704 0.417 24.8259 0.7875C25.8159 1.1685 26.6499 1.6845 27.4839 2.517C28.2469 3.2666 28.8371 4.17371 29.2134 5.175C29.5839 6.1305 29.8359 7.2195 29.9109 8.817C29.9289 9.216 29.9439 9.5475 29.9559 9.885L29.9649 10.176C29.9874 10.914 29.9964 11.7705 29.9994 13.458L30.0009 14.577V16.542C30.0045 17.6361 29.993 18.7302 29.9664 19.824L29.9574 20.115C29.9454 20.4525 29.9304 20.784 29.9124 21.183C29.8374 22.7805 29.5824 23.868 29.2134 24.825C28.8371 25.8263 28.2469 26.7334 27.4839 27.483C26.7343 28.246 25.8271 28.8363 24.8259 29.2125C23.8704 29.583 22.7814 29.835 21.1854 29.91L20.1174 29.955L19.8264 29.964C19.0869 29.985 18.2304 29.9955 16.5429 29.9985L15.4239 30H13.4604C12.3657 30.0039 11.2711 29.9924 10.1769 29.9655L9.88585 29.9565C9.52977 29.943 9.17376 29.9275 8.81785 29.91C7.22185 29.835 6.13285 29.583 5.17585 29.2125C4.1751 28.8361 3.26852 28.2459 2.51935 27.483C1.75577 26.7336 1.16502 25.8264 0.788353 24.825C0.417853 23.8695 0.165853 22.7805 0.0908531 21.183L0.0458532 20.115L0.0383533 19.824C0.0107024 18.7302 -0.00179894 17.6361 0.000853195 16.542V13.458C-0.00329865 12.3639 0.00770252 11.2698 0.0338533 10.176L0.0443533 9.885C0.0563533 9.5475 0.0713532 9.216 0.0893532 8.817C0.164353 7.2195 0.416353 6.132 0.786853 5.175C1.16439 4.1733 1.75619 3.26615 2.52085 2.517C3.26958 1.75432 4.17563 1.16411 5.17585 0.7875C6.13285 0.417 7.22035 0.165 8.81785 0.0899999C9.21685 0.0719999 9.54985 0.057 9.88585 0.045L10.1769 0.0359999C11.2706 0.00934906 12.3647 -0.00215205 13.4589 0.00149989L16.5429 0ZM15.0009 7.5C13.0117 7.5 11.1041 8.29018 9.69755 9.6967C8.29103 11.1032 7.50085 13.0109 7.50085 15C7.50085 16.9891 8.29103 18.8968 9.69755 20.3033C11.1041 21.7098 13.0117 22.5 15.0009 22.5C16.99 22.5 18.8976 21.7098 20.3042 20.3033C21.7107 18.8968 22.5009 16.9891 22.5009 15C22.5009 13.0109 21.7107 11.1032 20.3042 9.6967C18.8976 8.29018 16.99 7.5 15.0009 7.5ZM15.0009 10.5C15.5918 10.4999 16.177 10.6162 16.723 10.8423C17.269 11.0683 17.7651 11.3997 18.1831 11.8175C18.601 12.2353 18.9325 12.7313 19.1588 13.2772C19.385 13.8232 19.5015 14.4083 19.5016 14.9993C19.5017 15.5902 19.3854 16.1754 19.1593 16.7214C18.9333 17.2674 18.6019 17.7635 18.1841 18.1814C17.7663 18.5994 17.2703 18.9309 16.7244 19.1572C16.1784 19.3834 15.5933 19.4999 15.0024 19.5C13.8089 19.5 12.6643 19.0259 11.8204 18.182C10.9765 17.3381 10.5024 16.1935 10.5024 15C10.5024 13.8065 10.9765 12.6619 11.8204 11.818C12.6643 10.9741 13.8089 10.5 15.0024 10.5M22.8774 5.25C22.3801 5.25 21.9032 5.44754 21.5515 5.79917C21.1999 6.15081 21.0024 6.62772 21.0024 7.125C21.0024 7.62228 21.1999 8.09919 21.5515 8.45082C21.9032 8.80246 22.3801 9 22.8774 9C23.3746 9 23.8515 8.80246 24.2032 8.45082C24.5548 8.09919 24.7524 7.62228 24.7524 7.125C24.7524 6.62772 24.5548 6.15081 24.2032 5.79917C23.8515 5.44754 23.3746 5.25 22.8774 5.25Z"
+                                                fill="#FEFEFE" />
+                                        </svg>
+                                    </a>
+        
+        
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link" aria-label="Facebook" target="_blank" rel="noopener">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M30 15C30 6.72 23.28 0 15 0C6.72 0 0 6.72 0 15C0 22.26 5.16 28.305 12 29.7V19.5H9V15H12V11.25C12 8.355 14.355 6 17.25 6H21V10.5H18C17.175 10.5 16.5 11.175 16.5 12V15H21V19.5H16.5V29.925C24.075 29.175 30 22.785 30 15Z"
+                                                fill="#FEFEFE" />
+                                        </svg>
+        
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link" aria-label="YouTube" target="_blank" rel="noopener">
+                                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.987" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M16.2206 2.38766C17.8518 2.20541 18.8171 2.20541 20.5698 2.38766C23.6724 2.84688 26.5485 4.28101 28.7823 6.48266C27.2728 7.90947 25.7832 9.35711 24.3138 10.8252C21.4998 8.44016 18.3588 7.88966 14.8908 9.17366C12.3468 10.3437 10.5753 12.2397 9.5763 14.8617C7.94379 13.6463 6.33255 12.4026 4.7433 11.1312C4.63285 11.073 4.50671 11.0517 4.3833 11.0704C6.9078 6.20291 10.8528 3.30791 16.2183 2.38541"
+                                                fill="#F44336" />
+                                            <path opacity="0.997" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4.37858 11.0707C4.50608 11.0512 4.62683 11.0714 4.74083 11.1314C6.33008 12.4028 7.94132 13.6465 9.57383 14.8619C9.31694 15.8835 9.155 16.9267 9.09008 17.9782C9.14558 18.9952 9.30683 19.9934 9.57383 20.9729L4.50008 25.0117C2.29058 20.3947 2.25008 15.7477 4.37858 11.0707Z"
+                                                fill="#FFC107" />
+                                            <path opacity="0.999" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M28.5412 29.9031C26.9614 28.5099 25.3074 27.203 23.5867 25.9881C25.3117 24.7701 26.3587 23.0991 26.7277 20.9751H18.2744V15.1049C23.1494 15.0644 28.0222 15.1056 32.8927 15.2286C33.8167 20.2461 32.7494 24.7701 29.6909 28.8006C29.3272 29.1872 28.942 29.5552 28.5412 29.9031Z"
+                                                fill="#448AFF" />
+                                            <path opacity="0.993" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M9.57375 20.9746C11.4188 25.5601 14.8013 27.7006 19.7213 27.3961C21.1024 27.2362 22.4265 26.7537 23.5868 25.9876C25.3088 27.2056 26.9603 28.5106 28.5413 29.9026C26.0362 32.1536 22.8423 33.4893 19.4805 33.6916C18.7167 33.7527 17.9493 33.7527 17.1855 33.6916C11.4585 33.0166 7.23 30.1231 4.5 25.0111L9.57375 20.9746Z"
+                                                fill="#43A047" />
+                                        </svg>
+        
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <nav class="footer__nav">
+                            <h2 class="footer__title">PAGES</h2>
+                            <ul class="footer__list">
+                                <li>
+                                    <a href="#services">Our services</a>
+                                </li>
+                                <li>
+                                    <a href="#about-us">About us</a>
+                                </li>
+                                <li>
+                                    <a href="#projects">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="#reviews">Reviews</a>
+                                </li>
+                                <li>
+                                    <a href="#service-areas">Service areas</a>
+                                </li>
+                                <li>
+                                    <a href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+        
+                        <div class="footer__contacts contacts">
+                            <ul class="contacts__list">
+                                <li class="contacts__item">
+                                    <h3 class="contacts__title">Adress</h3>
+        
+                                    <span class="contacts__text">
+                                        <a href="mailto:info@k2roofing.com">911 12th Street
+                                            New Westminster, BC V3M 4K3, Canada</a>
+                                    </span>
+                                </li>
+                                <li class="contacts__item">
+                                    <h3 class="contacts__title">phone</h3>
+        
+                                    <span class="contacts__text">
+                                        <a href="mailto:6043170004">Tel: (604) 317-0004</a>
+                                        <a href="mailto:6045236778">Fax: (604) 523-6778</a>
+                                    </span>
+                                </li>
+                                <li class="contacts__item">
+                                    <h3 class="contacts__title">Email adress</h3>
+        
+                                    <span class="contacts__text">
+                                        <a class="email" href="mailto:info@k2roofing.com">info@k2roofing.com</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+        
+                    </div>
+                </div>
+        </footer>    </div>
+    <div id="form-contact" class="popup" aria-hidden="true">
+        <div class="popup__wrapper">
+    
+            <div class="popup__content">
+                <button class="popup__close close-popup" data-close-popup aria-label="Close" type="button"></button>
+    
+                <div class="popup__body">
+                    <h2 class="popup__title">
+                        Contact us
+                    </h2>
+    
+                    <form action="">
+    
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label class="form-label" for="contact-name">Name</label>
+                                <input class="form-input" type="text" name="" id="contact-name" required
+                                    placeholder="Artem Shulga*">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="contact-email">Email adress</label>
+                                <input class="form-input" type="email" name="" id="contact-email" required
+                                    placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="contact-phone">Phone number</label>
+                                <input class="form-input" type="text" name="" id="contact-phone" required
+                                    placeholder="(604) 317-0004*">
+                            </div>
+    
+                            <div class="form-group">
+                                <label class="form-label" for="contact-service">Service selection</label>
+    
+                                <select class="js-select" name="" id="contact-service">
+                                    <option value="all" disabled selected>Select service</option>
+                                    <option value="1">Оклеювання антигравійною та кольоровою плівкою</option>
+                                    <option value="2">Полірування, захисні покриття</option>
+                                    <option value="3">Тонування</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <div class="form-group">
+                            <label class="form-label" for="contact-name">Description</label>
+                            <textarea class="form-input" name="" id="contact-text"></textarea>
+                        </div>
+    
+                        <button class="form-btn btn" type="submit">Get a free quote</button>
+                    </form>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <div id="form-success" class="popup" aria-hidden="true">
+        <div class="popup__wrapper">
+    
+            <div class="popup__content">
+                <button class="popup__close close-popup" data-close-popup aria-label="Close" type="button"></button>
+    
+                <div class="popup__body">
+                    <h2 class="popup__title">
+                        Дякуємо!
+                    </h2>
+                    <div class="popup__text">
+                        <p>Ми звʼяжемось з вами протягом 24 годин</p>
+                    </div>
+                    <button class="btn" type="button" data-close-popup>Ок
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div></body>
+
+</html>
